@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:shrinkColumns="*" android:stretchColumns="*" android:background="#ffffff">
+    <!-- Linha 1 com uma coluna-->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:background="#FF0000"
+            android:padding="18dip"
+            android:text="Linha 1"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        </TableRow>
+    <!-- Linha 2 com 2 colunas -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_weight="1"
+            android:background="#00AF00"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Linha 2 Coluna 1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_weight="1"
+            android:background="#00FF00"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Linha 2 Coluna 2"
+            android:textColor="#000000" />
+    </TableRow>
+    <!-- Linha 2 com 3 colunas -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Linha 3 Coluna 1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_weight="1"
+            android:background="#0000CF"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Linha 3 Coluna 2"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Linha 3 Coluna 3"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Linha 3 Coluna 3"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Linha 3 Coluna 3"
+            android:textColor="#000000" />
+    </TableRow>
+</TableLayout>
